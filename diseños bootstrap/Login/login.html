@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b018a4a9cf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Login -->
+    <div class="container h-100">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="d-flex justify-content-center">
+                    <div class="logo_container">
+                        <img src="img/faviconw.png" class="logo img-fluid">
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center form_container">
+                    <!-- Formulario -->
+                    <form>
+                        <!-- input usuario -->
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control input_user" placeholder="Usuario">
+                        </div>
+
+                        <!-- input contraseña -->
+                        <div class="input-group mb-2">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input type="password" class="form-control input_pass" value=""
+                                placeholder="Contraseña">
+                        </div>
+
+                        <!-- Checkbox -->
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                <label class="custom-control-label" for="customControlInline">Recordarme</label>
+                            </div>
+                        </div>
+                        
+                        <!-- boton -->
+                        <div class="d-flex justify-content-center mt-3 login_container">
+                            <button type="button" name="button" class="btn login_btn">Iniciar Sesion</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="mt-4">
+                    <div class="d-flex justify-content-center links">
+                        No tienes una cuenta? <a href="#" class="ml-2">Registrarse</a>
+                    </div>
+                    <div class="d-flex justify-content-center links">
+                        <a href="#">Olvidaste la contraseña?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.4.1/js/jquery-3.4.1.min.js"></script>
+</body>
+
+</html>

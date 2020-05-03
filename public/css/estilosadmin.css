@@ -1,0 +1,36 @@
+.pagina{
+  height: 600px;
+}
+.contenedormenu {
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-color: rgba(223, 203, 203, 0.623);
+}
+.contenedorimagen {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.imgRedonda {
+  justify-content: center;
+  width:150px;
+  height:150px;
+  border-radius:150px;
+}
+.contenedoropcionesmenu {
+  margin-top: 30px;
+}
+.contenidoopciones {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.contenido{
+  width: 79%;
+  float: right;
+}
